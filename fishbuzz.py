@@ -1,3 +1,8 @@
+#CONTOH FISH BUZZ sederhana
+
+# jika bisa dibagi 3 dan 5 maka fish BUZZ
+# jika bisa dibagi 3 fish
+# jika bisa dibagi 5 buzz
 
 def fb(nilai):
 	if(nilai%3==0):
