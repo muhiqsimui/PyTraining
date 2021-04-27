@@ -1,8 +1,8 @@
 #CONTOH FIZZ BUZZ sederhana
 
-# jika bisa dibagi 3 dan 5 maka fizz BUZZ
-# jika bisa dibagi 3 fizz
-# jika bisa dibagi 5 buzz
+# jika nilai dapat dibagi 3 dan 5 maka tampilkan fizz BUZZ
+# jika nilai dapat dibagi 3 maka tampilkan fizz
+# jika nilai dapat dibagi 5 maka tampilkan buzz
 
 def fb(nilai):
 	if(nilai%3==0):
