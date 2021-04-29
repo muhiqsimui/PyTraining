@@ -16,5 +16,7 @@ class zakat:
 
 
 #NAMA PEZAKAT , GAJI PERBULAN, TUNJANGAN PERBULAN
-c1=zakat("Bosku",8_000_000,1_000_000)
-c2=zakat("Udin",3_000_000,500_000)
+c1=zakat("PAK A",8_000_000,1_000_000)
+c2=zakat("PAK B",3_000_000,500_000)
+c3=zakat("IBU A",6_000_000,1_000_000)
+c4=zakat("IBU B",4_000_000,800_000)
