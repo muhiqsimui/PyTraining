@@ -6,6 +6,7 @@ class zakat:
     penghasilan=val1+val2
     print("Jika Penghasilannya "+nama)
     conv(penghasilan)
+    #0.025 adalah 2,5% yaitu jumlah zakat yang harus dikeluarkan
     total=(val1+val2)*0.025
     print("maka zakatnya "+nama+" : ")
     conv(total)
