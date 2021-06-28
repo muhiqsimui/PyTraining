@@ -1,0 +1,19 @@
+{% extends "base/home.html" %}
+
+{%block heada%}
+<h1>Website Pantau Covid-19</h1>
+{%endblock%}
+
+
+{% block konten %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+<div class="container">
+    <h4>Data Pantau </h4>
+    <br>
+
+    <h6>Orang dalam Pemantauan : <span> {{data['data']['jumlah_odp']}}</span></h6>
+    <h6>Pasien dalam pengawasan : <span>{{data['data']['jumlah_pdp']}}</span></h6>
+    <h6>Total Spesimen : <span>{{data['data']['total_spesimen']}}</span></h6>
+    <h6>Total Spesimen Negatif : <span>{{data['data']['total_spesimen_negatif']}}</span></h6>
+</div>
+{% endblock %}
