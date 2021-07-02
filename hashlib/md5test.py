@@ -32,3 +32,26 @@ def encx(text):
   return text
 
 encx('halo')
+
+def login(userlogin,username,pwlogin,password):
+  if userlogin==username and pwlogin==password:
+    print('ok')
+  else:
+    print('fail')
+
+user='admin'
+pw='admin'
+username=encx(user)
+password=encx(pw)
+# ceritanya inputan user 
+listpw=['admin','admin2','admin3','admin']
+listus=['admin','admin2','admin','admin']
+
+#=====login masal=====
+i=0
+for i in range(len(listpw)):
+  userlogin=encx(listus[i])
+  pwlogin=encx(listpw[i])
+  i=i+1
+  print(i)
+  login(userlogin,username,pwlogin,password)
