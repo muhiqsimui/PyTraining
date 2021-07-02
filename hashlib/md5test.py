@@ -23,3 +23,12 @@ def enc2(text):
 
 enc('halo')
 enc2(b'halo')
+
+def encx(text):
+  textutf=text.encode('utf8')
+  hash=hashlib.md5(textutf)
+  hexa=hash.hexdigest()
+  text=hexa
+  return text
+
+encx('halo')
