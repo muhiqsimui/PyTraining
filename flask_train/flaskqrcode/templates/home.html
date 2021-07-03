@@ -1,0 +1,27 @@
+{% extends 'theme/menu-utama.html' %}
+
+{% block header%}
+<title>Home</title>
+{% endblock %}
+
+{% block konten %}
+<hr>
+<div class="container ">
+    <div class="row">
+        <div class="col">
+            <h1> QRCODE</h1>
+        </div>
+        <div class="col">
+            <form class="row g-3 form-control bg-dark " action="/scan" method="post">
+                <div class="row">
+                    <input class="form-control" type="text" name="qrcode" id="" placeholder="Masukan text">
+                </div>
+                <div class="row">
+                    <input class="btn-primary btn" type="submit" value="kirim">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

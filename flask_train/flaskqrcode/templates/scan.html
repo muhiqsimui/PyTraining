@@ -1,0 +1,25 @@
+{% extends 'theme/menu-utama.html' %}
+
+{% block header%}
+<title>Home</title>
+{% endblock %}
+
+
+
+{%block konten%}
+<div class="row">
+    <div class="col">
+        {% if gambar_content is not none %}
+        {{ gambar_content|safe}}
+        <br />
+        <h4> {{textqr}} </h4>
+        {% endif %}
+    </div>
+    <div class="col">
+        <h2>{{kj}}</h2>
+        <a href={{link}}>Link</a>
+    </div>
+
+</div>
+
+{% endblock %}
