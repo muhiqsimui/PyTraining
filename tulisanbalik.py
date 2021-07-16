@@ -12,3 +12,12 @@ tulisan='sabi lika taki jarbela honpyt engbar'
 les =tulisan.split()
 for i in range(len(les)):
   rev(les[i])
+
+ 
+
+'''
+YANG DI ATAS GK TAU ISTILAH NYA 
+SEBENARNYA KALO MAU BALIK TULISAN ATAU REVERSE STRING GINI AJA
+'''
+contohtext='tamvan'
+print(contohtext[::-1])
